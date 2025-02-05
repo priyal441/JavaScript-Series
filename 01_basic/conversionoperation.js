@@ -14,4 +14,4 @@ let someNUmber=33
 let StringNUmber=String(someNUmber)
 console.log(typeof StringNUmber)
 console.log(someNUmber)
-
+console.log(someNUmber)
