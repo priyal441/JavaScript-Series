@@ -19,13 +19,15 @@ myarr.shift()
 const newarr=myarr.join()
 // console.log(myarr);
 // console.log( typeof newarr);   //string me convert ho gya h
-console.log("A",myarr);  
+// console.log("A",myarr);  
 const myn1=myarr.slice(1,3); //yeh manipulite nhi krta h 
-console.log(myn1);  
-console.log("B",myarr);  
+// console.log(myn1);   
+// console.log("B",myarr);  
 
 const myn2=myarr.splice(1,3);  //yeh original array ko manipuliate krta h 
-console.log("c",myarr);  
-console.log(myn2);  
+// console.log("c",myarr);  
+// console.log(myn2);  
+
+
 
 
