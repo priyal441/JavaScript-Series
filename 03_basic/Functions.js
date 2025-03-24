@@ -23,5 +23,26 @@ function loginusermess(un="sam"){
     }
     return `${un}just logged in`
 }
-console.log(loginusermess("priyal"))
-console.log(loginusermess())
+// console.log(loginusermess("priyal"))
+// console.log(loginusermess())
+
+function calculateprice(val1,val2,...num1){   //rest operator sari vlaue pack krke mujhe de do 
+  return num1     // age dot ko hata dege to sird 1 value aayegi 
+    
+}
+console.log(calculateprice(1,333,4444,222))
+
+const user={
+  un:"priyal",
+  prices:44
+}
+function handleobj(anyobejct){
+  console.log(`username is ${anyobejct.un} and proce is ${anyobejct.price}`)
+}
+handleobj(user)
+const myarr=[200,300,100,500]
+function returnsecond(getarr){
+  return getarr[1]
+}
+// console.log(returnsecond(myarr))
+console.log(returnsecond([200,400,500,1000]))
