@@ -27,3 +27,18 @@ const useremail=[]
 // false,0,-0,BigInt 0n,"",null,undefined,NaN;
 // truthy Value
 // "0",'false',' ',[],{},function(){}
+
+
+//Nullish Coalescing operator
+// let val1;
+// // val1=5??10;
+
+// // val1=null??10
+// // val1=undefined??15
+// val1=null??10??11
+// console.log(val1)
+
+//ternamry operator
+// condition?true:false;
+const icetea=100
+icetea<=80?console.log("less than 80"):console.log("80")
